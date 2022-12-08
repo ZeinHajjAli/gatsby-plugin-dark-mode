@@ -1,6 +1,6 @@
 {
   "name": "@zeinh/gatsby-plugin-dark-mode-custom",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A Gatsby plugin which handles some of the details of implementing a dark mode theme",
   "main": "index.js",
   "files": [
