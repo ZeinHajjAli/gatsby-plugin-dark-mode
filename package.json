@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-dark-mode",
-  "version": "1.1.2",
+  "name": "@zeinh/gatsby-plugin-dark-mode-custom",
+  "version": "0.9.0",
   "description": "A Gatsby plugin which handles some of the details of implementing a dark mode theme",
   "main": "index.js",
   "files": [
@@ -26,10 +26,10 @@
     "react": "^16.13.1"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "^18.x"
   },
-  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
-  "homepage": "https://github.com/insin/gatsby-plugin-dark-mode#readme",
-  "bugs": "https://github.com//insin/gatsby-plugin-dark-mode/issues",
+  "author": "Zein Hajj-Ali <zeinhajjali@outlook.com> (zeinh.ca)",
+  "homepage": "https://github.com/zeinhajjali/gatsby-plugin-dark-mode#readme",
+  "bugs": "https://github.com//zeinhajjali/gatsby-plugin-dark-mode/issues",
   "license": "MIT"
 }

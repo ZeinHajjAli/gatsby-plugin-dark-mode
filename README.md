@@ -11,7 +11,7 @@ It provides:
 ## Install
 
 ```sh
-npm install gatsby-plugin-dark-mode
+npm install @zeinh/gatsby-plugin-dark-mode
 ```
 
 ```js
@@ -68,7 +68,7 @@ The toggled theme will be persisted across visits in `localStorage.theme`.
 
 ### Implement theming
 
-The default theme names are `'light'` and `'dark'` - the plugin adds the current theme name to the `<body>` element's `className`, so you can use [global styles](https://www.gatsbyjs.org/docs/creating-global-styles) to implement theming.
+The default theme names are `'light'` and `'dark'` - the plugin adds the current theme name to the `document` element's `className`, so you can use [global styles](https://www.gatsbyjs.org/docs/creating-global-styles) to implement theming.
 
 A nice option is to use CSS variables like so:
 
@@ -146,6 +146,6 @@ Wordpress2016.overrideThemeStyles = () => ({
 
 ## Acknowledgements
 
-The theme detecting/switching/persistence code and the suggested theming implementation are entirely from the [implementation of overreacted.io](https://github.com/gaearon/overreacted.io) by [Dan Abramov](https://twitter.com/dan_abramov) - I'm just publishing them as a plugin to make them easier to use in my own blog, and for reuse by others.
+The theme detecting/switching/persistence code and the suggested theming implementation are entirely from the [implementation of overreacted.io](https://github.com/gaearon/overreacted.io) by [Dan Abramov](https://twitter.com/dan_abramov) - I'm just publishing them as a plugin to make them easier to use in my own blog, and for reuse by others. Original implementation by [Jonny Buchanan](https://github.com/insin/gatsby-plugin-dark-mode).
 
 ## MIT Licensed
